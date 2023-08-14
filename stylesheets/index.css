@@ -27,6 +27,11 @@ header {
 
 .section {
     width: 100%;
-    height: 400px; /* just for testing if the sections work, will remove later */
+    height: auto; /* just for testing if the sections work, will remove later */
     border: 2px red double;
+}
+
+.section-images {
+    height: 100px;
+    width: 100px;
 }
