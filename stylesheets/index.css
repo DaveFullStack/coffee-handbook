@@ -1,0 +1,18 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(7, 108, 7);
+}
+
+header {
+    width: 100%;
+    border: 2px rgb(7, 108, 7) double;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
