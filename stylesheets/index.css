@@ -28,7 +28,7 @@ header {
 .section {
     width: 100%;
     height: auto; /* just for testing if the sections work, will remove later */
-    border: 2px red double;
+    /* border: 2px red double; */
 }
 
 .image-container {
@@ -39,6 +39,8 @@ header {
 
 .section-text {
     text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 .section-text a {
