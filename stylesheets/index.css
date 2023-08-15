@@ -41,9 +41,14 @@ header {
     text-align: center;
 }
 
+.section-text a {
+    text-decoration: none;
+}
+
 .link-titles {
     letter-spacing: 2px;
     text-transform: uppercase;
-    
+    color: rgb(7, 108, 7);
 }
+
 
