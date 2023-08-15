@@ -31,3 +31,9 @@ header {
     border: 2px red double;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
