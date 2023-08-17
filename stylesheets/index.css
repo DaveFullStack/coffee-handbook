@@ -13,6 +13,27 @@ header {
     margin-bottom: 10px;
 }
 
+.intro {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(10, 128, 10, 0.787);
+    text-align: center;
+    border: black 2px double;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.intro p {
+    color: black;
+    word-spacing: 0.1em;
+    letter-spacing: 0.2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
 #title {
     text-transform: uppercase;
     letter-spacing: 2px;
