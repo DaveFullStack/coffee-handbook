@@ -3,3 +3,17 @@ html {
     color: rgb(7, 108, 7);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border:rgb(7, 108, 7) 2px double;
+}
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: auto; */
+}
