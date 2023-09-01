@@ -18,6 +18,23 @@ header {
     /* margin: auto; */
 }
 
-.nav-bar {
+.nav-bar ul {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3em;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0;
+    text-align: center;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: rgb(7, 108, 7);
 }
