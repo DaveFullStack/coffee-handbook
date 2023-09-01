@@ -17,3 +17,7 @@ header {
     text-transform: uppercase;
     /* margin: auto; */
 }
+
+.nav-bar {
+    display: flex;
+}
