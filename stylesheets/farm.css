@@ -43,3 +43,15 @@ header {
     color: rgb(204, 255, 0);
 
 }
+
+.overview {
+    background-color: rgb(7, 108, 7);
+    color: black;
+    border: black 1em double;
+}
+.overview h3 {
+    text-align: center;
+}
+.overview p {
+    text-align: center;
+}
