@@ -47,11 +47,25 @@ header {
 .overview {
     background-color: rgb(7, 108, 7);
     color: black;
-    border: black 1em double;
+    border: black 0.25em double;
+    word-spacing: 0.25em;
+    letter-spacing: 0.05em;
 }
 .overview h3 {
     text-align: center;
+    text-transform: uppercase;
 }
 .overview p {
     text-align: center;
+}
+.overview ul {
+    list-style: none;
+    padding: 1em;
+}
+.overview ul li {
+    margin-bottom: 1em;
+    text-align: justify;
+    /* word-spacing: 0.25em;
+    letter-spacing: 0.05em; */
+    
 }
