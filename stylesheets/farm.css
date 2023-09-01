@@ -38,3 +38,8 @@ header {
     text-decoration: none;
     color: rgb(7, 108, 7);
 }
+
+.nav-bar ul li a:hover {
+    color: rgb(204, 255, 0);
+
+}
