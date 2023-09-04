@@ -50,6 +50,7 @@ header {
     border: black 0.25em double;
     word-spacing: 0.25em;
     letter-spacing: 0.05em;
+    margin: 0.5em;
 }
 .overview h3 {
     text-align: center;
@@ -74,6 +75,29 @@ header {
     font-size: larger;
     text-transform: uppercase;
     margin: auto;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     color: rgb(204, 255, 0);
+}
+
+.section {
+    word-spacing: 0.25em;
+    letter-spacing: 0.05em;
+    border:rgb(7, 108, 7) 0.5em double;
+    margin: 0.5em;
+}
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.section-text, .section-summary {
+    text-align: justify;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+}
+.section-summary{
+
+
 }
