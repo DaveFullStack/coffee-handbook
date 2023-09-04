@@ -69,3 +69,11 @@ header {
     letter-spacing: 0.05em; */
     
 }
+.guide {
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 1em;
+    color: rgb(204, 255, 0);
+}
