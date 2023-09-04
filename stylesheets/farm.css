@@ -80,11 +80,16 @@ header {
     color: rgb(204, 255, 0);
 }
 
-.section {
+.section, .inverted-section {
     word-spacing: 0.25em;
     letter-spacing: 0.05em;
     border:rgb(7, 108, 7) 0.5em double;
     margin: 0.5em;
+}
+.inverted-section {
+    border: black 0.5em double;
+    background-color: rgb(7, 108, 7);
+    color: black;
 }
 .section-title {
     text-transform: uppercase;
@@ -95,9 +100,5 @@ header {
     text-align: justify;
     padding-left: 0.5em;
     padding-right: 0.5em;
-
-}
-.section-summary{
-
 
 }
