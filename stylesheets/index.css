@@ -126,16 +126,18 @@ header {
 
 @media (max-width: 320px) {
     .intro p {
-        padding: 0.1em;
+        padding: 0.05em;
         font-size: medium;
     }
     .nav-bar ul {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
-        gap: 0;
+        gap: 0.5em;
+        width: 100%;
+        
     }
     .nav-bar li {
-        margin: 5px 0; /* Adjust the margin as needed for spacing */
+        gap: 0;
     }
 }
 
@@ -145,6 +147,9 @@ header {
     }
     .guide {
         font-size: medium;
+    }
+    .nav-bar ul {
+        gap: 1em;
     }
 }
 
