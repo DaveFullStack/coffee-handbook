@@ -72,18 +72,6 @@ header {
 
 }
 
-.mobile-menu {
-    display: none;
-}
-
-.mobile-menu-button {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-
 .guide {
     width: 100%;
     text-align: center;
@@ -168,18 +156,6 @@ header {
     .container {
         display: flex;
         flex-direction: column;
-    }
-    .mobile-menu-button {
-        display: block;
-    }
-    .nav-bar ul {
-        display: none;
-    }
-
-    /* Show the mobile menu when the button is clicked */
-    .mobile-menu-button:focus + .mobile-menu,
-    .mobile-menu-button:hover + .mobile-menu {
-        display: block;
     }
 }
 
