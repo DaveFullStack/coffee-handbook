@@ -77,6 +77,7 @@ header {
     text-align: center;
     font-size: 1.5em;
     margin: auto;
+    color:rgb(204, 255, 0);
 }
 
 .container {
@@ -138,6 +139,12 @@ header {
     }
 }
 
+@media (max-width: 425px) {
+    .intro p {
+        font-size: medium;
+    }
+}
+
 @media (max-width: 768px) {
     .intro p {
         padding-left: 0.5em;
@@ -149,10 +156,10 @@ header {
     }
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .intro p {
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
-} */
+}
 
