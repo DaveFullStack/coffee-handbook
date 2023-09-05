@@ -101,3 +101,12 @@ header {
     padding-right: 0.5em;
 
 }
+.cupping-list {
+    list-style: none;
+    padding: 0.5em;
+    
+}
+.cupping-list li {
+    padding-bottom: 0.5em;
+
+}
