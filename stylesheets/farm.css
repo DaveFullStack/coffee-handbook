@@ -127,6 +127,9 @@ header {
     .overview ul li {
         text-align: start;
     }
+    .section p, .inverted-section p {
+        text-align: left;
+    }
 }
 
 @media (max-width: 425px) {
