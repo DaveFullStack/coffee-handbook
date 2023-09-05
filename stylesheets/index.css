@@ -143,6 +143,9 @@ header {
     .intro p {
         font-size: medium;
     }
+    .guide {
+        font-size: medium;
+    }
 }
 
 @media (max-width: 768px) {
