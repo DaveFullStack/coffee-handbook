@@ -102,3 +102,38 @@ header {
     padding-right: 0.5em;
 
 }
+
+@media (max-width: 320px) {
+    
+    .nav-bar ul {
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 0.5em;
+        width: 100%;
+        
+    }
+    .nav-bar li {
+        gap: 0;
+    }
+    .overview, .section, .inverted-section {
+        padding: 0;
+        margin: 0;
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+    }
+    .overview ul {
+        padding: 0.5em;
+    }
+    .overview ul li {
+        text-align: start;
+    }
+    .section p, .inverted-section p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav-bar ul {
+        gap: 1em;
+    }
+}
